@@ -40,7 +40,7 @@ sudo apt-get upgrade
 
 
 ### Step 4: Change the SSH port from 22 to 2200
-## This step will make it impossible to connect with the "connect using SSH" Button in Amazon Browser Interface, because it is using SSH-Port 22.
+#### This step will make it impossible to connect with the "connect using SSH" Button in Amazon Browser Interface, because it is using SSH-Port 22.
 
 - Edit the `/etc/ssh/sshd_config` file with: `sudo nano /etc/ssh/sshd_config`.
 - If you don´t have nano installed on your system do it like in the Video and restart your Mac [How to install Nano](https://www.youtube.com/watch?v=0PsGEY3uC0c)
